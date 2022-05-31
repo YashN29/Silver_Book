@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="Dashboard"
+            android:id="@+id/semester_Dashboard"
+            />
+        <item
+
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile"
+            android:id="@+id/profile_fragment"
+            />
+
+        <item android:title="Sem 1"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:id="@+id/sem_1"
+            tools:ignore="DuplicateIds" />
+
+        <item android:title="Sem 2"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:id="@+id/sem_1"
+            tools:ignore="DuplicateIds" />
+
+        <item android:title="Sem 3"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:id="@+id/sem_1"
+            tools:ignore="DuplicateIds" />
+
+        <item android:title="Sem 4"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:id="@+id/sem_1"
+            tools:ignore="DuplicateIds" />
+
+        <item android:title="Sem 5"
+            android:icon="@drawable/ic_baseline_book_24"
+            android:id="@+id/sem_1"
+            tools:ignore="DuplicateIds" />
+
+        <item android:title="Student's Doubts"
+            android:icon="@drawable/ic_baseline_quiz_24"
+            android:id="@+id/show_doubts" />
+
+    </group>
+</menu>

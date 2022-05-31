@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profile">
+
+    <TextView
+        android:id="@+id/tv_pfinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Information"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_margin="25dp"
+        android:fontFamily="serif"/>
+
+    <ImageView
+        android:id="@+id/pf"
+        android:layout_width="141dp"
+        android:layout_height="127dp"
+        android:layout_below="@+id/tv_pfinfo"
+        android:src="@drawable/pf"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pf"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:text="Full Name"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/show_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fullname"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/emailadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_fullname"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:text="Email Address"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/show_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailadd"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_email"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#0288D1"
+        android:fontFamily="serif"
+        android:text="Update Profile"
+        android:textSize="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_update"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0288D1"
+        android:fontFamily="serif"
+        android:text="Logout"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

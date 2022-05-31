@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/semester_Dashboard">
+    <fragment
+        android:id="@+id/semester_Dashboard"
+        android:name="com.example.studypartner.Semester_Dashboard"
+        android:label="Silver Book"
+        tools:layout="@layout/fragment_semester__dashboard" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.studypartner.profile"
+        android:label="Silver Book"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/sem_1"
+        android:name="com.example.studypartner.Sem_1"
+        android:label="Silver Book"
+        tools:layout="@layout/fragment_sem_1" />
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.example.studypartner.Notification"
+        android:label="Silver Book"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/show_doubts"
+        android:name="com.example.studypartner.Show_doubts"
+        android:label="Silver Book"
+        tools:layout="@layout/fragment_show_doubts" />
+</navigation>
